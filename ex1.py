@@ -1,4 +1,5 @@
-def isEven(value):
+
+def isEven(value: int):
     nor_array = ['0', '2', '4', '6', '8']
     if str(value)[-1] in nor_array:
         return True
